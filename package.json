@@ -1,0 +1,14 @@
+{
+  "name": "HockeySync",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@esbuild-kit/esm-loader": "^2.6.5",
+    "typescript": "^5.6.3"
+  },
+  "type": "module",
+  "scripts": {
+    "go": "NODE_NO_WARNINGS=1 node --loader @esbuild-kit/esm-loader"
+  }
+}
